@@ -99,6 +99,6 @@ def delete_post():
     client.service.DeletePost(post.Id)
 
     print("Deleted.")
-    
+
 if __name__ == '__main__':
     main()
